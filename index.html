@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head> <title>Registration Form</title>
+
+</head>
+
+<body> <h1>Registration Form<h1>
+
+<div>
+
+<form name="regform" method="post">
+
+<label for="fname" >First Name</label>
+
+<input type="text" id="fname" name="firstname" placeholder="Enter First Name">
+
+<label for="Iname">Last Name </label> <input type="text" id="Iname" name="lastname" placeholder="Enter Last Name">
+
+<label>Gender</label><br/>
+
+<input type="radio" id="male" value="male">
+
+<label for="male">Male</label>
+
+</form> </div>
+
+</body>
+
+</html> 1/
+<body>
+
+    <div class="container">
+    
+    <form action="/action_page.php">
+    
+    <div class="row">
+    
+    <div class="col-25">
+    
+    <label for="email" <b>Name</b></label>
+    
+    </div>
+    
+    <div class="col-35">
+    
+    <input type="text" placeholder="First" name="fname" required>
+    
+    </div>
+    
+    <div class="col-35">
+        <input type="text" placeholder="Last" name="lname" required>
+
+</div>
+
+</div>
+
+<div class="IOW">
+
+<div class="col-25">
+
+<label for="username" <b>Choose your username</b></label>
+
+</div>
+
+<div class="col-75">
+
+<input type="text" placeholder="@htmldemo.com" name="domain" align="right" required>
+
+</div>
+
+</div>
+<div class="row">
+    <div class="col-25">
+
+        <label for="password" <b>Create a password</b></label>
+        
+    </div>
+    <div class="col-75">
+        <input type="text" placeholder="" name="password" required>
+
+    </div>
+    
+    </div>
+    
+    <div class="row">
+        <div class="col-25">
+            <label for="repwd" <b>Confirm a password</b></label>
+        </div>
+        <div class="col-75">
+            <input type="text" placeholder="" name="repwd" required>
+
+        </div>
+        
+        </div>
+        
+        <div class="row">
+        
+        <div class="col-25">
+        
+        <label for="repwd" <b>Birthday</b></label><br />
+        
+        </div>
+        
+        <div class="col-25">
+
+            <select id="month" name="month">
+            
+            <option value="Jan" January</option>
+            
+            <option value="Feb" February</option>
+            
+            <option value="Mar" March</option>
+            
+            </select>
+            <div class="col-25">
+                <input type="text" placeholder="Date" name="date" required>
+
+            </div>
+            
+            <div class="col-25">
+            
+            <input type="text" placeholder="Year" name="year" required>
+            
+            </div>
+            
+            </div>
+            
+            <div class="row">
+            
+            <div class="col-25">
+            
+            <label for="gender"> <b>Gender</b></label><br />
+        </div>
+        <div class="col-75">
+            <select id="genderselect" name="genderselect">
+
+                <option value="default" selected="selected" I am... </option>
+                
+                <option value="Female" Female/option> <option value="Male" Male/option>
+                
+                <option value="Other" Other</option>
+                </select>
+
+            </div>
+        </div>
+
+        <div class="row" align="right">
+            <button type="submit" class="registerbtn"><strong>Register</strong></button>
+        </div>
+    </form>
+
+</div>
+<div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+
+</div>
+        
+    
+    
